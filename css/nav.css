@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+
+    height: 150px;
+    background-color: rgba(247, 246, 247, 0.774);
+    backdrop-filter: blur(15px);
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+nav img{
+    height: 110px;
+    padding-top: 25px;
+    
+}
+
+
+.options {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: transparent;
+    border-style: none;
+    font-size: 25px;
+    margin-top:50px;
+    color:black
+    
+}
+
+.options :hover{
+    color: rgb(252, 150, 238);
+    height: 60px;
+    width: 60px;
+    font-size: 28px;
+}
+
+.carrito{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-decoration: none;
+    background-color: transparent;
+    color: black;
+    font-size: 25px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.carrito :hover{
+    color: rgb(252, 150, 238);
+    font-size: 28px;
+
+}
+
+
+.banner{
+    width: 100%;
+    height: 600px; 
+    overflow: hidden;
+    padding-top: 150px;
+}
+
+.banner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    box-shadow: white;
+    position: static;
+}
